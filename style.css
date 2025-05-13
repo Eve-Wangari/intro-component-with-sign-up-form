@@ -1,0 +1,127 @@
+body{
+    background-image: url(images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 1.1;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size:2.1em ;
+}
+.container{
+    padding: 2em;
+    width: 90%;
+    margin: auto;
+}
+.btn{
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    font-size: 18px;
+    cursor:pointer;
+
+}
+.try-btn{
+    background-color: hsl(248, 32%, 49%);
+    /* background-color: hsl(249, 10%, 26%) ; */
+    /* background-color: hsl(246, 25%, 77%) ; */
+    color: #fff;
+    text-align: center;
+    padding:16px 48px;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.try-btn:hover{
+opacity: 0.8;
+}
+.try-btn span{
+    font-weight: bold;
+}
+.form-container{
+    background-color: #fff;
+    color: black;
+    padding: 2em;
+    border-radius: .3em;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+.error-msg{
+    color:hsl(0, 100%, 74%);
+    font-size: 14px;
+    text-align: right;
+    display: none;
+}
+
+.my-form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    position:relative;
+    padding: 16px;
+    font-weight: bold;
+    margin: 0.6em;
+    border-radius: 0.3em;
+    text-align: left;
+    border:1px solid hsl(246, 25%, 77%);
+   }
+
+input:hover{
+    border: 1px solid black;
+}
+
+.input-error{
+    /* display: none; */
+    background-image: url('images/icon-error.svg');
+    background-size: 30px;
+    background-position:90% 50%;
+    background-repeat: no-repeat;
+    border:2px solid hsl(0, 100%, 74%);
+
+
+}
+.submit-btn{
+    background-color: hsl(154, 59%, 51%) ;
+    color: #fff;
+    text-align: center;
+    font-size:17px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    opacity: 0.8;
+    border:none;
+    box-shadow: 2px 2px 2px black;
+}
+.terms{
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+
+}
+.terms a{
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+    text-decoration: none;
+}
+@media(min-width:968px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 2em auto;
+    }
+    h1{
+        font-size: 3em;
+    }
+    .try-btn{
+        margin-bottom: 1em;
+    }
+}
