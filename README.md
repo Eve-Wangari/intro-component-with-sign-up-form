@@ -27,14 +27,14 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](.images/screenshot.png)
+![Screenshot](./images/screenshot.png)
 
 
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/Eve-Wangari/intro-component-with-sign-up-form)
+- Live Site URL: [live site](https://eve-wangari.github.io/intro-component-with-sign-up-form/)
 
 ## My process
 
